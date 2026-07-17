@@ -1,0 +1,43 @@
+{
+  "name": "Hoosh Yar Brand Tokens",
+  "colors": {
+    "bgVoid": "#05060F",
+    "bgDeep": "#0A0E1F",
+    "cyanPrimary": "#3FE8F4",
+    "blueElectric": "#5B7FFF",
+    "violetCore": "#9D5CFF",
+    "magentaGlow": "#E63CD8",
+    "glassBg": "rgba(255,255,255,0.04)",
+    "glassBorder": "rgba(255,255,255,0.12)",
+    "textPrimary": "#F2F4FF",
+    "textMuted": "#8A91B0"
+  },
+  "typography": {
+    "latinHeading": ["Space Grotesk", "Sora", "system-ui", "sans-serif"],
+    "latinBody": ["Inter", "system-ui", "sans-serif"],
+    "persian": ["Vazirmatn", "Tahoma", "sans-serif"],
+    "mono": ["JetBrains Mono", "Fira Code", "ui-monospace", "monospace"]
+  },
+  "gradients": {
+    "brandBeam": "linear-gradient(135deg, #3FE8F4 0%, #5B7FFF 35%, #9D5CFF 68%, #E63CD8 100%)",
+    "glassGlow": "linear-gradient(135deg, rgba(63,232,244,0.22), rgba(157,92,255,0.18), rgba(230,60,216,0.22))",
+    "deepSpace": "radial-gradient(circle at 20% 20%, rgba(63,232,244,0.16), transparent 30%), radial-gradient(circle at 80% 10%, rgba(230,60,216,0.14), transparent 28%), linear-gradient(180deg, #05060F 0%, #0A0E1F 100%)"
+  },
+  "radii": {
+    "glassCard": "24px",
+    "button": "999px",
+    "panel": "32px"
+  },
+  "shadows": {
+    "cyanGlow": "0 0 32px rgba(63,232,244,0.28)",
+    "violetGlow": "0 0 40px rgba(157,92,255,0.28)",
+    "magentaGlow": "0 0 40px rgba(230,60,216,0.26)",
+    "glassLift": "0 24px 80px rgba(0,0,0,0.42)"
+  },
+  "motion": {
+    "durationFast": "180ms",
+    "durationBase": "320ms",
+    "durationSlow": "700ms",
+    "easePremium": "cubic-bezier(0.22, 1, 0.36, 1)"
+  }
+}
