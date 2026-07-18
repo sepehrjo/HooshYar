@@ -1,0 +1,22 @@
+{
+  "phase": {
+    "eyebrow": "Phase 1 Foundation",
+    "title": "Hoosh Yar is ready for a bilingual, cinematic build.",
+    "description": "The Next.js app, Tailwind tokens, locale routing, and core design primitives are in place. Phase 2 can now assemble the real navigation, hero, motion wrappers, and footer.",
+    "primaryCta": "Design system ready",
+    "secondaryCta": "View Farsi",
+    "localeLabel": "English"
+  },
+  "tokens": {
+    "title": "Brand tokens installed",
+    "description": "Dark space, glass panels, neural glow, and cyan-to-magenta gradients are available as Tailwind utilities."
+  },
+  "i18n": {
+    "title": "Bilingual from day one",
+    "description": "Routes are locale-prefixed and ready for LTR/RTL layout switching."
+  },
+  "motion": {
+    "title": "Motion stack installed",
+    "description": "Framer Motion, GSAP, and Lenis are installed for future scroll reveals and smooth cinematic interactions."
+  }
+}
