@@ -1,0 +1,354 @@
+{
+  "home": {
+    "trust": [
+      {
+        "value": 10,
+        "suffix": "x",
+        "en": "Automation potential",
+        "fa": "ظرفیت اتوماسیون"
+      },
+      {
+        "value": 3,
+        "suffix": "+",
+        "en": "Service tracks",
+        "fa": "مسیر خدماتی"
+      },
+      {
+        "value": 2,
+        "suffix": "",
+        "en": "Launch languages",
+        "fa": "زبان راه‌اندازی"
+      }
+    ],
+    "featuredWorkTitle": {
+      "en": "Featured work in progress",
+      "fa": "نمونه‌کارهای در حال آماده‌سازی"
+    },
+    "featuredWorkIntro": {
+      "en": "Real case studies will replace these branded placeholders once project content, images, and results are approved.",
+      "fa": "پس از آماده شدن محتوای پروژه‌ها، تصاویر و نتایج واقعی جایگزین این کارت‌های برندمحور می‌شوند."
+    },
+    "testimonialsTitle": {
+      "en": "Signals of trust",
+      "fa": "نشانه‌های اعتماد"
+    },
+    "testimonials": [
+      {
+        "en": "Placeholder client quote for an AI workflow engagement.",
+        "fa": "نقل‌قول جایگزین برای یک پروژه جریان کاری هوشمند."
+      },
+      {
+        "en": "Placeholder partner note for automation impact.",
+        "fa": "یادداشت جایگزین برای اثرگذاری اتوماسیون."
+      }
+    ],
+    "finalCta": {
+      "en": {
+        "title": "Ready to turn intelligence into momentum?",
+        "body": "Start with a focused discovery call and we’ll map the fastest path from idea to deployable system.",
+        "cta": "Get a Quote"
+      },
+      "fa": {
+        "title": "آماده‌اید هوشمندی را به حرکت تبدیل کنید؟",
+        "body": "با یک جلسه شناخت شروع می‌کنیم و سریع‌ترین مسیر از ایده تا سیستم قابل اجرا را طراحی می‌کنیم.",
+        "cta": "درخواست مشاوره"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "en": {
+        "title": "World-class technology, built for Persian-speaking businesses",
+        "subtitle": "Hoosh Yar bridges the gap between global tech standards and the Iranian market"
+      },
+      "fa": {
+        "title": "تکنولوژی جهانی، برای کسب‌وکار ایرانی",
+        "subtitle": "هوش‌یار شکاف بین استانداردهای جهانی فناوری و بازار ایران را پر می‌کند"
+      }
+    },
+    "origin": {
+      "label": {
+        "en": "Why Hoosh Yar?",
+        "fa": "چرا هوش‌یار؟"
+      },
+      "body": {
+        "en": "Iranian businesses deserve the same quality that the world's leading companies have.\nBut too often they face ready-made templates, second-rate tools, and teams that confuse them with technical jargon — not real results.\nHoosh Yar was built to break that pattern. A unified system of AI, automation and web development — fully custom, fast, and built to last.",
+        "fa": "کسب‌وکارهای ایرانی لایق همان کیفیتی هستند که شرکت‌های بزرگ دنیا دارند.\nاما اغلب با قالب‌های آماده، ابزارهای دست‌دوم و تیم‌هایی روبرو می‌شوند که با اصطلاحات فنی گیج‌شان می‌کنند — نه با نتایج واقعی.\nهوش‌یار برای شکستن این الگو شکل گرفت. یک سیستم یکپارچه از هوش مصنوعی، اتوماسیون و توسعه وب — اختصاصی، سریع و ساخته‌شده برای ماندگاری."
+      }
+    },
+    "differentiators": [
+      {
+        "accent": "cyan",
+        "icon": "code",
+        "title": {
+          "en": "Fully Custom",
+          "fa": "کاملاً اختصاصی"
+        },
+        "body": {
+          "en": "No templates. Everything we build is designed from scratch for your business — precisely fitted to your needs, brand and goals",
+          "fa": "هیچ قالب آماده‌ای وجود ندارد. هر چیزی که می‌سازیم از صفر برای کسب‌وکار شما طراحی می‌شود — دقیقاً متناسب با نیاز، برند و هدف شما"
+        }
+      },
+      {
+        "accent": "violet",
+        "icon": "link",
+        "title": {
+          "en": "Everything in One Place",
+          "fa": "همه‌چیز در یک جا"
+        },
+        "body": {
+          "en": "AI, automation and web — one team, one system. No more coordinating between multiple vendors",
+          "fa": "هوش مصنوعی، اتوماسیون و وب — یک تیم، یک سیستم. دیگر نیازی به هماهنگی بین چند آژانس مختلف نیست"
+        }
+      },
+      {
+        "accent": "magenta",
+        "icon": "shield",
+        "title": {
+          "en": "Speed, Power, Security",
+          "fa": "سرعت، قدرت، امنیت"
+        },
+        "body": {
+          "en": "Systems that run fast, hold up under pressure and protect your data — all three together, not one at the expense of another",
+          "fa": "سیستم‌هایی که سریع اجرا می‌شوند، زیر فشار دوام می‌آورند و داده‌های شما را محافظت می‌کنند — هر سه با هم، نه یکی به قیمت دیگری"
+        }
+      }
+    ],
+    "principles": [
+      {
+        "accent": "cyan",
+        "icon": "message",
+        "title": {
+          "en": "Outcomes, not jargon",
+          "fa": "نتیجه، نه اصطلاحات فنی"
+        },
+        "body": {
+          "en": "We explain what we build and why in plain terms — you stay in control",
+          "fa": "با زبان ساده توضیح می‌دهیم چه می‌سازیم و چرا — شما تصمیم می‌گیرید"
+        }
+      },
+      {
+        "accent": "violet",
+        "icon": "tag",
+        "title": {
+          "en": "Transparent pricing from day one",
+          "fa": "قیمت شفاف از ابتدا"
+        },
+        "body": {
+          "en": "No hidden costs. Full proposal with fixed price before any work begins",
+          "fa": "هیچ هزینه پنهانی وجود ندارد. پروپوزال کامل با قیمت مشخص قبل از شروع هر کار"
+        }
+      },
+      {
+        "accent": "magenta",
+        "icon": "clock",
+        "title": {
+          "en": "On-time delivery",
+          "fa": "تحویل به موقع"
+        },
+        "body": {
+          "en": "We honour the timelines we set — because your time has value",
+          "fa": "به زمان‌بندی‌هایی که می‌دهیم پایبند هستیم — چون وقت شما ارزش دارد"
+        }
+      },
+      {
+        "accent": "cyan",
+        "icon": "support",
+        "title": {
+          "en": "Support after delivery",
+          "fa": "پشتیبانی پس از تحویل"
+        },
+        "body": {
+          "en": "The project doesn't end at delivery. We stay with you until everything works perfectly",
+          "fa": "پروژه با تحویل تمام نمی‌شود. همراه شما می‌مانیم تا مطمئن شویم همه‌چیز کار می‌کند"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "value": 9,
+        "suffix": "",
+        "en": "specialist services",
+        "fa": "خدمات تخصصی"
+      },
+      {
+        "value": 3,
+        "suffix": "",
+        "en": "core expertise areas",
+        "fa": "حوزه تخصصی"
+      },
+      {
+        "value": 2,
+        "suffix": "",
+        "en": "supported languages",
+        "fa": "زبان پشتیبانی"
+      },
+      {
+        "value": 8,
+        "suffix": "",
+        "en": "build phases",
+        "fa": "مرحله ساخت"
+      }
+    ],
+    "cta": {
+      "en": {
+        "headline": "Let's build something that lasts",
+        "subhead": "First consultation is free — no commitment, just a conversation",
+        "primaryCta": "Get Started",
+        "secondaryCta": "View Services"
+      },
+      "fa": {
+        "headline": "بیایید با هم چیزی بسازیم که ماندگار باشد",
+        "subhead": "مشاوره اول رایگان است — بدون تعهد، فقط یک گفتگو",
+        "primaryCta": "شروع همکاری",
+        "secondaryCta": "مشاهده خدمات"
+      }
+    }
+  },
+  "process": {
+    "hero": {
+      "en": {
+        "eyebrow": "Process",
+        "title": "From discovery to launch, every step stays clear.",
+        "body": "A structured build path keeps AI, automation, and web projects focused, measurable, and launch-ready."
+      },
+      "fa": {
+        "eyebrow": "فرآیند",
+        "title": "از شناخت تا لانچ، هر قدم شفاف می‌ماند.",
+        "body": "مسیر ساختارمند باعث می‌شود پروژه‌های هوش مصنوعی، اتوماسیون و وب متمرکز، قابل اندازه‌گیری و آماده اجرا باشند."
+      }
+    },
+    "steps": [
+      {
+        "en": {
+          "title": "Understand",
+          "body": "We map your goals, real users, current workflows, and success metrics — before a single line of code is written."
+        },
+        "fa": {
+          "title": "شناخت",
+          "body": "اهداف کسب‌وکار، کاربران واقعی، جریان‌های کاری فعلی و معیارهای موفقیت را دقیق شناسایی می‌کنیم — قبل از نوشتن حتی یک خط کد."
+        }
+      },
+      {
+        "en": {
+          "title": "Solution",
+          "body": "We design the right mix of AI, automation, and web — system architecture, integrations, and execution path, all clearly defined and justified."
+        },
+        "fa": {
+          "title": "راه‌حل",
+          "body": "بهترین ترکیب از هوش مصنوعی، اتوماسیون و وب را طراحی می‌کنیم؛ معماری سیستم، یکپارچه‌سازی‌ها و مسیر اجرا مشخص و قابل دفاع می‌شود."
+        }
+      },
+      {
+        "en": {
+          "title": "Build",
+          "body": "We build in short, visible cycles — every stage testable, reviewable, and launch-ready."
+        },
+        "fa": {
+          "title": "ساخت",
+          "body": "طراحی و توسعه را در چرخه‌های کوتاه و قابل مشاهده پیش می‌بریم — هر مرحله قابل تست، قابل بازبینی و آماده لانچ است."
+        }
+      }
+    ]
+  },
+  "blog": {
+    "hero": {
+      "en": {
+        "eyebrow": "Blog",
+        "title": "Insights coming soon.",
+        "body": "The blog can launch empty while the content cadence is prepared. Future posts will cover AI workflows, automation strategy, and modern web development."
+      },
+      "fa": {
+        "eyebrow": "بلاگ",
+        "title": "مقالات به‌زودی منتشر می‌شوند.",
+        "body": "بلاگ می‌تواند فعلاً خالی منتشر شود تا برنامه محتوایی آماده شود. نوشته‌های آینده درباره جریان‌های هوش مصنوعی، استراتژی اتوماسیون و توسعه وب مدرن خواهند بود."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "en": {
+        "eyebrow": "Contact",
+        "title": "Tell us what you want to build.",
+        "body": "Share the goal, timeline, and the kind of intelligent system or web experience you need. We’ll respond with next steps."
+      },
+      "fa": {
+        "eyebrow": "تماس",
+        "title": "بگویید چه چیزی می‌خواهید بسازید.",
+        "body": "هدف، زمان‌بندی و نوع سیستم هوشمند یا تجربه وب مورد نیازتان را بنویسید. با مراحل بعدی پاسخ می‌دهیم."
+      }
+    },
+    "directContact": {
+      "intro": {
+        "en": "Prefer to reach out directly?",
+        "fa": "ترجیح می‌دهید مستقیم صحبت کنید؟"
+      },
+      "channels": [
+        {
+          "type": "email",
+          "label": {
+            "en": "Email",
+            "fa": "ایمیل"
+          },
+          "value": "sepehrjokanian99@gmail.com",
+          "link": "mailto:sepehrjokanian99@gmail.com",
+          "accent": "cyan"
+        },
+        {
+          "type": "telegram",
+          "label": {
+            "en": "Telegram",
+            "fa": "تلگرام"
+          },
+          "value": "@PLACEHOLDER",
+          "link": "https://t.me/PLACEHOLDER",
+          "accent": "violet",
+          "todo": "TODO: replace with real Telegram handle"
+        },
+        {
+          "type": "whatsapp",
+          "label": {
+            "en": "WhatsApp",
+            "fa": "واتساپ"
+          },
+          "value": "+PLACEHOLDER",
+          "link": "https://wa.me/PLACEHOLDER",
+          "accent": "magenta",
+          "todo": "TODO: replace with real WhatsApp number"
+        }
+      ]
+    },
+    "faq": [
+      {
+        "question": {
+          "en": "How much does a project cost?",
+          "fa": "هزینه پروژه چقدر است؟"
+        },
+        "answer": {
+          "en": "Since every project is custom-built, there's no fixed price — after understanding your needs, we send a clear, specific proposal.",
+          "fa": "چون هر پروژه اختصاصی طراحی می‌شود، قیمت ثابت نداریم — بعد از شنیدن نیاز شما، پیشنهاد شفاف و مشخص ارسال می‌کنیم."
+        }
+      },
+      {
+        "question": {
+          "en": "How long does a project take?",
+          "fa": "پروژه چقدر طول می‌کشد؟"
+        },
+        "answer": {
+          "en": "Depending on complexity, it ranges from a few days to a few weeks. The exact timeline is set in the initial proposal.",
+          "fa": "بسته به پیچیدگی، از چند روز تا چند هفته متغیر است. زمان‌بندی دقیق در پیشنهاد اولیه مشخص می‌شود."
+        }
+      },
+      {
+        "question": {
+          "en": "What if I'm not sure exactly what I need?",
+          "fa": "اگر مطمئن نیستم دقیقاً چه نیاز دارم چه کنم؟"
+        },
+        "answer": {
+          "en": "That's fine — just describe the challenge you're facing, and we'll help define the right solution together.",
+          "fa": "مشکلی نیست — همین الان بنویسید چه چالشی دارید، ما راه‌حل مناسب را با شما مشخص می‌کنیم."
+        }
+      }
+    ]
+  }
+}

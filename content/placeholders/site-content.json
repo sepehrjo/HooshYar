@@ -1,0 +1,584 @@
+{
+  "meta": {
+    "status": "placeholder",
+    "note": "Central placeholder content for Hoosh Yar. Replace values here with approved EN/FA copy and real project data as it becomes available."
+  },
+  "locales": [
+    "en",
+    "fa"
+  ],
+  "defaultLocale": "fa",
+  "directions": {
+    "en": "ltr",
+    "fa": "rtl"
+  },
+  "brand": {
+    "en": {
+      "name": "Hoosh Yar",
+      "tagline": "Aware intelligence for ambitious digital products."
+    },
+    "fa": {
+      "name": "هوش‌یار",
+      "tagline": "هوش آگاه برای محصولات دیجیتال آینده‌نگر."
+    }
+  },
+  "navigation": [
+    {
+      "href": "/",
+      "en": "Home",
+      "fa": "خانه"
+    },
+    {
+      "href": "/about",
+      "en": "About",
+      "fa": "درباره ما"
+    },
+    {
+      "href": "/services",
+      "en": "Services",
+      "fa": "خدمات"
+    },
+    {
+      "href": "/work",
+      "en": "Work",
+      "fa": "نمونه‌کارها"
+    },
+    {
+      "href": "/process",
+      "en": "Process",
+      "fa": "فرآیند"
+    },
+    {
+      "href": "/contact",
+      "en": "Contact",
+      "fa": "تماس"
+    }
+  ],
+  "footer": {
+    "tagline": {
+      "en": "AI services, automation and web development with a future-ready identity",
+      "fa": "خدمات هوش مصنوعی، اتوماسیون و توسعه وب با هویت آینده‌نگر"
+    },
+    "columnsLabel": {
+      "pages": {
+        "en": "Pages",
+        "fa": "صفحات"
+      },
+      "contact": {
+        "en": "Get in Touch",
+        "fa": "تماس با ما"
+      }
+    },
+    "cta": {
+      "en": "Get Started",
+      "fa": "شروع همکاری"
+    },
+    "copyright": {
+      "en": "© 2026 Hoosh Yar",
+      "fa": "© ۱۴۰۵ هوش‌یار"
+    },
+    "builtWith": {
+      "en": "Built with intelligence and precision",
+      "fa": "ساخته‌شده با هوش و دقت"
+    }
+  },
+  "contact": {
+    "email": "info@hooshyar.com",
+    "telegram": "@hooshyar",
+    "whatsapp": "+98 ...",
+    "emailLabel": {
+      "en": "Email",
+      "fa": "ایمیل"
+    },
+    "telegramLabel": {
+      "en": "Telegram",
+      "fa": "تلگرام"
+    },
+    "whatsappLabel": {
+      "en": "WhatsApp",
+      "fa": "واتساپ"
+    }
+  },
+  "social": {
+    "instagram": "#",
+    "telegram": "#",
+    "whatsapp": "#",
+    "bale": "#",
+    "email": "mailto:info@hooshyar.com"
+  },
+  "hero": {
+    "status": "ready",
+    "assetExpected": "public/media/hero-video.mp4",
+    "en": {
+      "eyebrow": "AI Services · Automation · Web Development",
+      "headline": "Build intelligent systems that move your business forward.",
+      "subhead": "Hoosh Yar designs premium AI, automation, and web experiences with a cinematic, future-ready edge.",
+      "primaryCta": "Get a Quote",
+      "secondaryCta": "Explore Services"
+    },
+    "fa": {
+      "eyebrow": "خدمات هوش مصنوعی · اتوماسیون · توسعه وب",
+      "headline": "سیستم‌های هوشمندی بسازید که کسب‌وکار شما را جلو می‌برند.",
+      "subhead": "هوش‌یار تجربه‌های ممتاز هوش مصنوعی، اتوماسیون و وب را با هویتی آینده‌نگر طراحی و اجرا می‌کند.",
+      "primaryCta": "درخواست مشاوره",
+      "secondaryCta": "مشاهده خدمات"
+    }
+  },
+  "valueCards": [
+    {
+      "icon": "ai-chip",
+      "en": "Where the art of design meets artificial intelligence",
+      "fa": "آنجا كه هنر طراحى به هوش مصنوعى ميرسد"
+    },
+    {
+      "icon": "workflow",
+      "en": "Hoosh Yar, the new frontier of progressive business",
+      "fa": "هوش يار، مرز نوين كسب و كار هاى پيشرو"
+    },
+    {
+      "icon": "code",
+      "en": "Reduce costs, increase speed, automation transformation with Hoosh Yar",
+      "fa": "كاهش هزينه ها، افزايش سرعت، تحول اتوماسيون با هوش يار"
+    },
+    {
+      "icon": "cloud",
+      "en": "Breaking ready-made website templates with fully custom Hoosh Yar design",
+      "fa": "شكستن مرز قالب هاى آماده سايت، با طراحى كاملا اختصاصى|BR|هوش یار"
+    }
+  ],
+  "services": [
+    {
+      "slug": "ai-services",
+      "en": {
+        "title": "AI Services",
+        "description": "Custom agents, integrations, and intelligent product features."
+      },
+      "fa": {
+        "title": "خدمات هوش مصنوعی",
+        "description": "ایجنت‌های اختصاصی، یکپارچه‌سازی‌ها و قابلیت‌های هوشمند محصول."
+      }
+    },
+    {
+      "slug": "automation",
+      "en": {
+        "title": "Automation",
+        "description": "Workflow and business-process automation that removes repetitive work."
+      },
+      "fa": {
+        "title": "اتوماسیون",
+        "description": "خودکارسازی فرآیندها برای حذف کارهای تکراری و افزایش سرعت اجرا."
+      }
+    },
+    {
+      "slug": "web-development",
+      "en": {
+        "title": "Web Development",
+        "description": "Fast, elegant, scalable websites and web applications."
+      },
+      "fa": {
+        "title": "توسعه وب",
+        "description": "وب‌سایت‌ها و اپلیکیشن‌های سریع، زیبا و مقیاس‌پذیر."
+      }
+    }
+  ],
+  "caseStudies": [
+    {
+      "slug": "placeholder-ai-operations",
+      "status": "placeholder",
+      "cover": "gradient-block-cyan-violet",
+      "en": {
+        "title": "AI Operations Console",
+        "summary": "Case study coming soon — placeholder for an AI workflow product."
+      },
+      "fa": {
+        "title": "کنسول عملیات هوشمند",
+        "summary": "مطالعه موردی به‌زودی — جایگزین برای یک محصول جریان کاری هوشمند."
+      }
+    },
+    {
+      "slug": "placeholder-automation-hub",
+      "status": "placeholder",
+      "cover": "gradient-block-blue-magenta",
+      "en": {
+        "title": "Automation Hub",
+        "summary": "Case study coming soon — placeholder for a business automation build."
+      },
+      "fa": {
+        "title": "هاب اتوماسیون",
+        "summary": "مطالعه موردی به‌زودی — جایگزین برای پروژه اتوماسیون کسب‌وکار."
+      }
+    },
+    {
+      "slug": "placeholder-web-platform",
+      "status": "placeholder",
+      "cover": "gradient-block-violet-cyan",
+      "en": {
+        "title": "Premium Web Platform",
+        "summary": "Case study coming soon — placeholder for a custom web platform."
+      },
+      "fa": {
+        "title": "پلتفرم وب ممتاز",
+        "summary": "مطالعه موردی به‌زودی — جایگزین برای یک پلتفرم وب اختصاصی."
+      }
+    },
+    {
+      "slug": "placeholder-cloud-integration",
+      "status": "placeholder",
+      "cover": "gradient-block-magenta-cyan",
+      "en": {
+        "title": "Cloud Integration Layer",
+        "summary": "Case study coming soon — placeholder for integrations and cloud workflows."
+      },
+      "fa": {
+        "title": "لایه یکپارچه‌سازی ابری",
+        "summary": "مطالعه موردی به‌زودی — جایگزین برای یکپارچه‌سازی‌ها و جریان‌های ابری."
+      }
+    }
+  ],
+  "about": {
+    "status": "placeholder",
+    "en": "Hoosh Yar is a future-focused digital studio helping teams turn intelligent ideas into reliable systems, automated workflows, and premium web experiences.",
+    "fa": "هوش‌یار یک استودیوی دیجیتال آینده‌نگر است که به تیم‌ها کمک می‌کند ایده‌های هوشمند را به سیستم‌های قابل اعتماد، فرآیندهای خودکار و تجربه‌های وب ممتاز تبدیل کنند."
+  },
+  "pricing": {
+    "status": "placeholder-custom-quote",
+    "en": "Every engagement starts with a focused discovery call, then we shape a custom quote around scope, timeline, and business impact.",
+    "fa": "هر همکاری با یک جلسه شناخت دقیق شروع می‌شود؛ سپس براساس دامنه کار، زمان‌بندی و اثر تجاری، پیشنهاد اختصاصی آماده می‌کنیم."
+  },
+  "servicesPage": {
+    "header": {
+      "en": {
+        "label": "Our Services",
+        "headline": "Solutions that transform your business",
+        "subhead": "We solve your real problems in plain terms — no technical complexity"
+      },
+      "fa": {
+        "label": "خدمات ما",
+        "headline": "راه‌حل‌هایی که کسب‌وکار شما را متحول می‌کند",
+        "subhead": "ما به زبان ساده، مشکل واقعی شما را حل می‌کنیم — بدون پیچیدگی فنی"
+      }
+    },
+    "howItWorks": {
+      "en": [
+        {
+          "title": "Free Consultation",
+          "body": "Contact us, describe your problem — we listen and propose a tailored solution"
+        },
+        {
+          "title": "Planning & Pricing",
+          "body": "You receive a clear proposal with fixed price, timeline and full details — no surprises"
+        },
+        {
+          "title": "Build & Delivery",
+          "body": "We build, you approve, you receive — with after-delivery support included"
+        }
+      ],
+      "fa": [
+        {
+          "title": "مشاوره رایگان",
+          "body": "با ما تماس بگیرید، مشکل خود را توضیح دهید — ما گوش می‌دهیم و راه‌حل پیشنهاد می‌دهیم"
+        },
+        {
+          "title": "برنامه‌ریزی و قیمت‌گذاری",
+          "body": "یک پروپوزال شفاف با قیمت مشخص، زمان‌بندی و تمام جزئیات دریافت می‌کنید"
+        },
+        {
+          "title": "ساخت و تحویل",
+          "body": "ما می‌سازیم، شما تأیید می‌کنید، تحویل می‌گیرید — با پشتیبانی پس از تحویل"
+        }
+      ]
+    },
+    "cta": {
+      "en": {
+        "headline": "Ready to transform your business?",
+        "subhead": "First consultation is free — no commitment, just a conversation",
+        "primaryCta": "Get Started",
+        "secondaryCta": "View Our Work"
+      },
+      "fa": {
+        "headline": "آماده‌اید کسب‌وکار خود را متحول کنید؟",
+        "subhead": "مشاوره اول رایگان است — بدون تعهد، فقط یک گفتگو",
+        "primaryCta": "شروع همکاری",
+        "secondaryCta": "مشاهده نمونه‌کارها"
+      }
+    },
+    "categories": [
+      {
+        "slug": "ai-services",
+        "accent": "cyan",
+        "en": {
+          "title": "AI Services",
+          "oneLiner": "Intelligent systems that work for you"
+        },
+        "fa": {
+          "title": "هوش مصنوعی",
+          "oneLiner": "سیستم‌های هوشمندی که برای شما کار می‌کنند"
+        },
+        "services": [
+          {
+            "slug": "ai-content-generation",
+            "popular": true,
+            "en": {
+              "badge": "Most Popular",
+              "problem": "Content creation takes too much of your team's time",
+              "title": "AI Content Generation",
+              "explanation": "AI tools that write product descriptions, captions and marketing copy in your exact brand voice",
+              "deliverables": [
+                "AI trained on your brand tone and style",
+                "Content creation for social media",
+                "Simple tool your team can use independently"
+              ],
+              "price": "From $220 USD"
+            },
+            "fa": {
+              "badge": "پرطرفدار",
+              "problem": "تولید محتوا وقت زیادی از تیم شما می‌گیرد",
+              "title": "تولید محتوای هوشمند",
+              "explanation": "ابزار هوش مصنوعی که متن، توضیحات محصول و پست‌های بازاریابی را به سبک برند شما می‌نویسد",
+              "deliverables": [
+                "آموزش هوش مصنوعی بر اساس لحن و سبک برند شما",
+                "تولید محتوا برای شبکه‌های اجتماعی",
+                "ابزار ساده برای استفاده توسط تیم شما"
+              ],
+              "price": "از ۸ میلیون تومان"
+            }
+          },
+          {
+            "slug": "smart-business-assistant",
+            "en": {
+              "problem": "Your team can't answer every customer question in time",
+              "title": "Smart Business Assistant",
+              "explanation": "A custom AI assistant trained on your business — answers customers 24/7 without extra staff cost",
+              "deliverables": [
+                "AI trained on your products, FAQs and business info",
+                "Auto-responses on WhatsApp, website or Telegram",
+                "Management dashboard to review conversations"
+              ],
+              "price": "From $400 USD"
+            },
+            "fa": {
+              "problem": "کارمندان شما وقت ندارند همه سوالات مشتری را جواب بدهند",
+              "title": "دستیار هوشمند کسب‌وکار",
+              "explanation": "یک دستیار هوش مصنوعی اختصاصی که ۲۴ ساعته، ۷ روز هفته جواب مشتریان شما را می‌دهد",
+              "deliverables": [
+                "آموزش هوش مصنوعی بر اساس اطلاعات کسب‌وکار شما",
+                "پاسخ‌گویی خودکار در واتساپ، سایت یا تلگرام",
+                "داشبورد مدیریت و بررسی مکالمات"
+              ],
+              "price": "از ۱۵ میلیون تومان"
+            }
+          },
+          {
+            "slug": "smart-analytics-reporting",
+            "en": {
+              "problem": "You don't know what your numbers and sales data are telling you",
+              "title": "Smart Analytics & Reporting",
+              "explanation": "AI reads your data and explains in plain language what's happening and what to do next",
+              "deliverables": [
+                "Connects to your sales, inventory or CRM",
+                "Automatic weekly plain-language summary report",
+                "Smart alerts for significant changes"
+              ],
+              "price": "From $320 USD"
+            },
+            "fa": {
+              "problem": "نمی‌دانید اعداد و فروش شما چه می‌گویند",
+              "title": "تحلیل و گزارش‌گیری هوشمند",
+              "explanation": "هوش مصنوعی داده‌های شما را می‌خواند و به فارسی ساده توضیح می‌دهد چه اتفاقی دارد می‌افتد",
+              "deliverables": [
+                "اتصال به فروش، موجودی یا CRM شما",
+                "گزارش هفتگی خودکار به زبان ساده",
+                "هشدار هوشمند برای تغییرات مهم"
+              ],
+              "price": "از ۱۲ میلیون تومان"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "automation",
+        "accent": "violet",
+        "en": {
+          "title": "Automation",
+          "oneLiner": "Eliminate repetitive tasks, free your team"
+        },
+        "fa": {
+          "title": "اتوماسیون",
+          "oneLiner": "کارهای تکراری را حذف کنید، تیم را آزاد کنید"
+        },
+        "services": [
+          {
+            "slug": "system-integration",
+            "popular": true,
+            "en": {
+              "badge": "Most Popular",
+              "problem": "Your apps and systems don't talk to each other",
+              "title": "System Integration",
+              "explanation": "We connect your CRM, shop, accounting and messaging tools — no more copy-pasting between systems",
+              "deliverables": [
+                "Connecting different systems together",
+                "Automatic data flow with no human intervention",
+                "Monitoring and error alerts"
+              ],
+              "price": "From $380 USD"
+            },
+            "fa": {
+              "badge": "پرطرفدار",
+              "problem": "اپ‌ها و سیستم‌های شما با هم صحبت نمی‌کنند",
+              "title": "اتصال سیستم‌ها",
+              "explanation": "CRM، فروشگاه، حسابداری و پیام‌رسان‌های شما را به هم وصل می‌کنیم — کپی‌پیست تمام می‌شود",
+              "deliverables": [
+                "اتصال سیستم‌های مختلف به هم",
+                "جریان داده خودکار بدون دخالت انسانی",
+                "مانیتورینگ و هشدار در صورت خطا"
+              ],
+              "price": "از ۱۴ میلیون تومان"
+            }
+          },
+          {
+            "slug": "task-automation",
+            "en": {
+              "problem": "Your team spends hours every day on manual repetitive tasks",
+              "title": "Task Automation",
+              "explanation": "We identify your daily manual tasks and automate them completely",
+              "deliverables": [
+                "Audit and mapping of your current processes",
+                "Building automation for key processes",
+                "Training and support"
+              ],
+              "price": "From $270 USD"
+            },
+            "fa": {
+              "problem": "تیم شما روزانه ساعت‌ها وقت صرف کارهای تکراری می‌کند",
+              "title": "حذف کارهای تکراری",
+              "explanation": "کارهای دستی روزانه‌تان را شناسایی و به‌صورت خودکار انجام می‌دهیم",
+              "deliverables": [
+                "بررسی و نقشه‌برداری فرآیندهای فعلی شما",
+                "ساخت اتوماسیون برای فرآیندهای کلیدی",
+                "آموزش و پشتیبانی"
+              ],
+              "price": "از ۱۰ میلیون تومان"
+            }
+          },
+          {
+            "slug": "automated-follow-ups",
+            "en": {
+              "problem": "Following up with leads and sending reminders gets forgotten",
+              "title": "Automated Follow-ups & Notifications",
+              "explanation": "A system that follows up with leads, sends order confirmations and payment reminders — on autopilot",
+              "deliverables": [
+                "Follow-up scenarios tailored to your business",
+                "Automated messaging on social media",
+                "Reporting and response tracking"
+              ],
+              "price": "From $240 USD"
+            },
+            "fa": {
+              "problem": "پیگیری مشتریان و ارسال یادآوری‌ها فراموش می‌شود",
+              "title": "اعلان و پیگیری خودکار",
+              "explanation": "سیستمی که خودش مشتریان را پیگیری می‌کند، تأیید سفارش می‌فرستد و یادآوری پرداخت می‌دهد",
+              "deliverables": [
+                "طراحی سناریوهای پیگیری مناسب کسب‌وکار شما",
+                "ارسال خودکار پیام در شبکه‌های اجتماعی",
+                "گزارش و پاسخ‌دهی"
+              ],
+              "price": "از ۹ میلیون تومان"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "web-development",
+        "accent": "magenta",
+        "en": {
+          "title": "Web Development",
+          "oneLiner": "Websites that work, not just look good"
+        },
+        "fa": {
+          "title": "طراحی سایت",
+          "oneLiner": "سایت‌هایی که کار می‌کنند، نه فقط خوب به نظر می‌رسند"
+        },
+        "services": [
+          {
+            "slug": "high-conversion-landing-page",
+            "popular": true,
+            "en": {
+              "badge": "Most Popular",
+              "problem": "Visitors come to your site but don't become customers",
+              "title": "High-Conversion Landing Page",
+              "explanation": "A sales page built to convert visitors into paying customers — psychologically structured, fast and persuasive",
+              "deliverables": [
+                "Conversion-optimised copywriting and design",
+                "A/B testing and post-launch optimisation",
+                "Connected to your form, CRM or WhatsApp"
+              ],
+              "price": "From $220 USD"
+            },
+            "fa": {
+              "badge": "پرطرفدار",
+              "problem": "بازدیدکنندگان سایت شما تبدیل به مشتری نمی‌شوند",
+              "title": "لندینگ پیج فروش",
+              "explanation": "یک صفحه فروش طراحی‌شده برای تبدیل بازدیدکننده به مشتری — ساختار روان‌شناختی، سریع و قانع‌کننده",
+              "deliverables": [
+                "کپی‌رایتینگ و طراحی بهینه برای تبدیل",
+                "تست A/B و بهینه‌سازی بعد از لانچ",
+                "اتصال به فرم، CRM یا واتساپ شما"
+              ],
+              "price": "از ۸ میلیون تومان"
+            }
+          },
+          {
+            "slug": "custom-business-website",
+            "en": {
+              "problem": "Your current site looks like everyone else's template",
+              "title": "Custom Business Website",
+              "explanation": "A fully custom website — no templates — fast, mobile-first, and built entirely around your brand",
+              "deliverables": [
+                "Custom UI/UX design for your brand",
+                "High-speed loading, fully mobile optimised",
+                "Simple content management panel"
+              ],
+              "price": "From $550 USD"
+            },
+            "fa": {
+              "problem": "سایت فعلی شما قالبی است و از رقبا متمایز نمی‌شود",
+              "title": "سایت اختصاصی کسب‌وکار",
+              "explanation": "سایتی کاملاً اختصاصی، بدون قالب آماده، سریع، موبایل‌پسند و متناسب با برند شما",
+              "deliverables": [
+                "طراحی اختصاصی UI/UX برای برند شما",
+                "سرعت بارگذاری بالا و بهینه برای موبایل",
+                "پنل مدیریت ساده برای به‌روزرسانی محتوا"
+              ],
+              "price": "از ۲۰ میلیون تومان"
+            }
+          },
+          {
+            "slug": "online-store",
+            "en": {
+              "problem": "You sell online but don't have a professional system",
+              "title": "Online Store",
+              "explanation": "A complete online store with payment, inventory and order management — ready to sell from day one",
+              "deliverables": [
+                "Payment gateway",
+                "Product, inventory and order management",
+                "Sales reporting and management dashboard"
+              ],
+              "price": "From $800 USD"
+            },
+            "fa": {
+              "problem": "فروش آنلاین دارید اما سیستم حرفه‌ای ندارید",
+              "title": "فروشگاه آنلاین",
+              "explanation": "فروشگاه کامل با پرداخت آنلاین، مدیریت موجودی و ثبت سفارش — آماده فروش از روز اول",
+              "deliverables": [
+                "درگاه پرداخت",
+                "مدیریت محصولات، موجودی و سفارشات",
+                "گزارش فروش و داشبورد مدیریت"
+              ],
+              "price": "از ۳۰ میلیون تومان"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
