@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAdminToken } from '@/lib/auth';
 import {
+  checkKvConnection,
   clearChatLogs,
   getDemoMode,
   isKvConfigured,
@@ -21,22 +22,6 @@ function maskGroqKey(key: string | undefined): string | null {
   if (!key) return null;
   if (key.length <= 8) return 'gsk_****';
   return `gsk_${key.slice(4, 8)}****...****${key.slice(-4)}`;
-}
-
-async function checkKvConnection(): Promise<boolean> {
-  if (!(await isKvConfigured())) return false;
-
-  try {
-    const { Redis } = await import('@upstash/redis');
-    const url = process.env.KV_REST_API_URL;
-    const token = process.env.KV_REST_API_TOKEN;
-    if (!url || !token) return false;
-    const client = new Redis({ url, token });
-    await client.get('demo_mode');
-    return true;
-  } catch {
-    return false;
-  }
 }
 
 export async function GET(request: NextRequest) {

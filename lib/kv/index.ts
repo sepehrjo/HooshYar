@@ -1,23 +1,23 @@
+import { Redis } from '@upstash/redis';
 import { isKvConfigured } from '@/lib/kv/config';
 
-export { isKvConfigured } from '@/lib/kv/config';
+export { isKvConfigured, isKvConfiguredSync } from '@/lib/kv/config';
 
-function getClient(): Promise<import('@upstash/redis').Redis | null> {
-  return (async () => {
-    try {
-      const { Redis } = await import('@upstash/redis');
-      const url = process.env.KV_REST_API_URL;
-      const token = process.env.KV_REST_API_TOKEN;
-      if (!url || !token) return null;
-      return new Redis({ url, token });
-    } catch {
-      return null;
-    }
-  })();
+// Module-level singleton — created once per server instance, not per request.
+let _client: Redis | null = null;
+
+function getClient(): Redis | null {
+  const url = process.env.KV_REST_API_URL;
+  const token = process.env.KV_REST_API_TOKEN;
+  if (!url || !token) return null;
+  if (!_client) {
+    _client = new Redis({ url, token });
+  }
+  return _client;
 }
 
 async function kvGetJSON<T>(key: string): Promise<T | null> {
-  const client = await getClient();
+  const client = getClient();
   if (!client) return null;
   try {
     return await client.get<T>(key);
@@ -27,19 +27,19 @@ async function kvGetJSON<T>(key: string): Promise<T | null> {
 }
 
 async function kvSetJSON(key: string, value: unknown): Promise<void> {
-  const client = await getClient();
+  const client = getClient();
   if (!client) throw new Error('KV not available');
   await client.set(key, value);
 }
 
 async function kvDelete(key: string): Promise<void> {
-  const client = await getClient();
+  const client = getClient();
   if (!client) return;
   await client.del(key);
 }
 
 async function kvListKeys(prefix: string): Promise<string[]> {
-  const client = await getClient();
+  const client = getClient();
   if (!client) return [];
   try {
     return await client.keys(`${prefix}*`);
@@ -343,5 +343,20 @@ export async function resetContent(): Promise<void> {
   } catch (error) {
     console.error('Error resetting content:', error);
     throw error;
+  }
+}
+
+/**
+ * Performs a live connectivity test against KV by issuing a real GET.
+ * Used by the admin settings panel to report status.
+ */
+export async function checkKvConnection(): Promise<boolean> {
+  const client = getClient();
+  if (!client) return false;
+  try {
+    await client.get('demo_mode');
+    return true;
+  } catch {
+    return false;
   }
 }

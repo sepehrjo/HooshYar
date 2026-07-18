@@ -1,4 +1,5 @@
 import { cache } from 'react';
+import { Redis } from '@upstash/redis';
 import { isKvConfigured } from '@/lib/kv/config';
 import {
   CONTENT_ALL_KEY,
@@ -9,22 +10,25 @@ import {
   getDefaultContent,
 } from '@/lib/content/utils';
 
-function getClient(): Promise<import('@upstash/redis').Redis | null> {
-  return (async () => {
-    try {
-      const { Redis } = await import('@upstash/redis');
-      const url = process.env.KV_REST_API_URL;
-      const token = process.env.KV_REST_API_TOKEN;
-      if (!url || !token) return null;
-      return new Redis({ url, token });
-    } catch {
-      return null;
-    }
-  })();
+// Re-use the same env vars as lib/kv/index.ts.
+// We instantiate our own client here to avoid a circular import with lib/kv,
+// which exports high-level helpers that use a `content:` key prefix
+// (content:${key}). Since CONTENT_ALL_KEY is already 'content:all', using
+// those helpers would double-prefix the key to 'content:content:all'.
+let _client: Redis | null = null;
+
+function getClient(): Redis | null {
+  const url = process.env.KV_REST_API_URL;
+  const token = process.env.KV_REST_API_TOKEN;
+  if (!url || !token) return null;
+  if (!_client) {
+    _client = new Redis({ url, token });
+  }
+  return _client;
 }
 
-async function kvGetJSON<T>(key: string): Promise<T | null> {
-  const client = await getClient();
+async function kvGet<T>(key: string): Promise<T | null> {
+  const client = getClient();
   if (!client) return null;
   try {
     return await client.get<T>(key);
@@ -33,8 +37,8 @@ async function kvGetJSON<T>(key: string): Promise<T | null> {
   }
 }
 
-async function kvSetJSON(key: string, value: unknown): Promise<void> {
-  const client = await getClient();
+async function kvSet(key: string, value: unknown): Promise<void> {
+  const client = getClient();
   if (!client) throw new Error('KV not available');
   await client.set(key, value);
 }
@@ -55,7 +59,7 @@ export const getContentBundle = cache(async (): Promise<{
   }
 
   try {
-    const stored = await kvGetJSON<ContentStore>(CONTENT_ALL_KEY);
+    const stored = await kvGet<ContentStore>(CONTENT_ALL_KEY);
     if (stored?.site || stored?.pages) {
       return {
         site: deepMerge(defaults.site, (stored.site ?? {}) as Partial<SiteContentData>),
@@ -78,7 +82,7 @@ export async function getStoredContentStore(): Promise<ContentStore | null> {
   if (!(await isKvConfigured())) return null;
 
   try {
-    return await kvGetJSON<ContentStore>(CONTENT_ALL_KEY);
+    return await kvGet<ContentStore>(CONTENT_ALL_KEY);
   } catch {
     return null;
   }
@@ -86,5 +90,5 @@ export async function getStoredContentStore(): Promise<ContentStore | null> {
 
 export async function saveContentStore(store: ContentStore): Promise<void> {
   if (!(await isKvConfigured())) return;
-  await kvSetJSON(CONTENT_ALL_KEY, store);
+  await kvSet(CONTENT_ALL_KEY, store);
 }
