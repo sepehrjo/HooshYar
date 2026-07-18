@@ -51,7 +51,7 @@ export function Footer({
     },
     {
       name: "Bale",
-      href: "https://bale.ai/",
+      href: site.social.bale,
       icon: (
         <svg className="h-5 w-5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <rect x="1" y="1" width="18" height="18" rx="6" stroke="currentColor" strokeWidth="1.5" fill="none"/>
